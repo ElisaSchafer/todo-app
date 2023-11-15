@@ -34,8 +34,10 @@ function verificarTema() {
     if (tema) {
         if (tema === "dark") {
             body.classList.add("dark")
+            button.innerHTML = `<img src="/imagens/sun-icon.png" alt="ícone de Sol">`
         } else {
             body.classList.add("light")
+            button.innerHTML = `<img src="/imagens/moon-icon.png" alt="ícone de Lua">`
         }
     }
 }
